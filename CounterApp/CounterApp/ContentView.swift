@@ -22,6 +22,10 @@ struct ContentView: View {
             }
             Button(action: {self.number += 1}) {
                 Text("カウント")
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    .background(Color.green)
+                    .cornerRadius(10.0)
             }
         }
     }
